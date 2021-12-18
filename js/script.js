@@ -1,6 +1,6 @@
-let total = 149.99,
-    product = 'Hiking Boots',
-    discounted = true;
+const btn = document.getElementById('submit');
 
-console.log(product);
-console.log(discounted);
+btn.addEventListener('click', function() {
+    const txt = document.getElementById('message');
+    txt.classList.toggle('percent-off');
+})
